@@ -73,11 +73,7 @@ main {
 }
 
 
-.kepek {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-}
+
 
 figure {
     background: white;
@@ -90,13 +86,6 @@ figure {
 
 figure:hover {
     transform: scale(1.05);
-}
-
-.kaja {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
 }
 
 
@@ -134,13 +123,26 @@ footer {
         width: 150px;
     }
 }
-<<<<<<< HEAD
-
-
-.kituntetett-kozep {
-    width: 100%;
+.dhenis-kozep {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
     text-align: center;
-    margin: 20px auto;
 }
-=======
->>>>>>> bc703f131425376f2432c392be58a7357ef11f8e
+.kepek {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.kepek figure {
+    width: 200px; 
+    text-align: center;
+}
+
+.kaja {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
