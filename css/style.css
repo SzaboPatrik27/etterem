@@ -146,3 +146,56 @@ footer {
     object-fit: cover;
     border-radius: 10px;
 }
+
+.tulajdonosunk {
+    text-align: center;
+}
+
+.tulajdonosunk img {
+    width: 180px;         
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.tulajdonosunk {
+    text-align: center;
+}
+
+.tulajdonosunk {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.owner-kep {
+    width: 180px;   
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.tulajdonosunk {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+
+.tulajdonosunk h2 {
+    grid-column: 1 / -1;   
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.tulajdonosunk p {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
