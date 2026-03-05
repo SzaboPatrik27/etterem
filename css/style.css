@@ -199,3 +199,29 @@ footer {
 }
 
 
+.kaja {
+    display: flex;          
+    flex-wrap: wrap;        
+    justify-content: center; 
+    align-items: center;     
+    gap: 30px;              
+    padding: 50px 20px;     
+    min-height: 300px;      
+}
+
+
+.logo {
+    max-height: 150px;      
+    width: auto;            
+    display: block;
+}
+
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    clear: both;            
+}
